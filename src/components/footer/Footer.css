@@ -1,0 +1,44 @@
+.footerLogo .logoWrapper {
+  margin-top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+}
+
+.footerLogo .spinContainer {
+  width: 38px;
+  
+}
+
+.footerLogo .spinLogo {
+  display: block;
+  animation: none !important;
+  transform: none !important;
+}
+
+.footerLogo .staticContainer {
+  width: 62px;
+}
+
+.footerLogo .spinContainer img,
+.footerLogo .staticContainer img {
+  width: 100%;
+  height: auto;
+  animation: none !important;
+  transform: none !important;
+}
+
+@media (max-width: 768px) {
+  .footerLogo .logoWrapper {
+    gap: 8px;
+  }
+
+  .footerLogo .spinContainer {
+    width: 32px;
+  }
+
+  .footerLogo .staticContainer {
+    width: 76px;
+  }
+}

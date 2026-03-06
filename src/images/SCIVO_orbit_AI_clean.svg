@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 200" width="160" height="200">
+  <defs>
+    <linearGradient id="scivoGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#003C71"/>
+      <stop offset="50%" stop-color="#005A9E"/>
+      <stop offset="100%" stop-color="#002145"/>
+    </linearGradient>
+  </defs>
+
+  <g id="orbits" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke-width="8">
+    <ellipse cx="90" cy="100" rx="60" ry="34" stroke="#1976D2"/>
+    <ellipse cx="90" cy="100" rx="60" ry="34" stroke="#19B8F0" transform="rotate(65 90 100)"/>
+    <ellipse cx="90" cy="100" rx="60" ry="34" stroke="#7B61FF" transform="rotate(-65 90 100)"/>
+
+    <animateTransform
+      attributeName="transform"
+      type="rotate"
+      from="0 90 100"
+      to="360 90 100"
+      dur="10s"
+      repeatCount="indefinite"
+      calcMode="linear"/>
+  </g>
+
+  <polygon points="90,70 118,91 108,124 72,124 62,91" fill="#113F67"/>
+
+ <text x="90" y="100"
+      text-anchor="middle"
+      dominant-baseline="middle"
+      fill="#FFFFFF"
+      font-size="27"
+      font-weight="700"
+      font-family="Inter, Arial, sans-serif">
+  AI
+</text>
+</svg>
