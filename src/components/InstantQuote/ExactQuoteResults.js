@@ -135,6 +135,11 @@ function ExactQuoteResults() {
           </Link>
         </div>
 
+        {/* Small footer – keep it light */}
+        <p className="text-center mt-6 text-gray-500 text-2xl max-w-xl mx-auto leading-relaxed">
+          Actual lead volume and results depend on market conditions, targeting inputs, and sales execution. Revenue outcomes are not guaranteed.
+        </p>
+
         <p className="text-center mt-6">
           <Link to="/instant-quote" className="text-teal-600 hover:text-teal-700 font-medium">
             ← Back to Instant Quote

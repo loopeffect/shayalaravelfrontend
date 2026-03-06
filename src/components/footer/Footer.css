@@ -42,3 +42,8 @@
     width: 76px;
   }
 }
+
+
+p.font-medium.text-white.text-lg {
+  font-size: 109%;
+}

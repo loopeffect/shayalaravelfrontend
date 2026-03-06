@@ -59,14 +59,14 @@ function Footer() {
             <div className="space-y-4 text-sm">
 
               <div>
-                <p className="font-medium text-white">support@myscivo.com</p>
+                <p className="font-medium text-white text-lg">support@myscivo.com</p>
                 <p className="text-gray-400 text-xs">
                   For general questions, support, or account inquiries
                 </p>
               </div>
 
               <div>
-                <p className="font-medium text-white">Office Hours</p>
+                <p className="font-medium text-white text-lg">Office Hours</p>
                 <p className="text-gray-400 text-xs">
                   Mon–Fri, 9:00 AM – 5:00 PM (Pacific)
                 </p>
